@@ -1,0 +1,20 @@
+<h2>The Titans of the Tartaros</h2>
+ 
+<div>
+  <label>Titan name:
+    <input #titanName />
+  </label>
+  <button (click)="add(titanName.value); titanName.value=''">
+    add
+  </button>
+</div>
+ 
+<ul class="titans">
+  <li *ngFor="let titan of titans">
+    <a routerLink="/detail/{{titan.id}}">
+      <span class="badge">{{titan.id}}</span> {{titan.name}}
+    </a>
+    <button class="delete" title="delete titan"
+    (click)="delete(titan)">X</button>
+  </li>
+</ul>
