@@ -30,10 +30,10 @@
       .module {
         padding: 20px;
         text-align: center;
-        color:cadetblue;
+        color:rgb(14, 102, 105);
         max-height: 120px;
         min-width: 120px;
-        background-color: slategray;
+        background-color: hwb(300 4% 85% / 0.445);
         border-radius: 2px;
       }
       .module:hover {

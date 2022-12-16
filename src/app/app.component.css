@@ -1,0 +1,10 @@
+a {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    color:cadetblue;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: rgb(209, 221, 235);
+    border-radius: 2px;
+  }
